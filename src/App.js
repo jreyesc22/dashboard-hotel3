@@ -17,7 +17,7 @@ import Restaurante from './components/Restaurante';
 import Reportes from './components/Reporte';
 import Empleados from './components/Empleados';
 
-import Login from './components/Login'; // Agrega el componente de Login
+//import Login from './components/Login'; // Agrega el componente de Login
 
 
 function App() {
@@ -52,7 +52,7 @@ function App() {
           </Routes>
         </>
       ) : (
-        <Login onLogin={handleLogin} />
+       // <Login onLogin={handleLogin} />
       )}
     </Router>
   );
